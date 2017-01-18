@@ -230,6 +230,8 @@ jQuery( document ).ready( function($) {
 			$('body').removeClass( "boxed" );
 
 		}
+
+		$( window ).trigger('resize');
 		
 	});
 });	
