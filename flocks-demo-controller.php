@@ -141,7 +141,7 @@ function fdc_render_view() { ?>
 	</div>
 	<div id="flocks-demo-controller-controls">
 		<!-- color scheme -->
-		<section id="" class="flocks-demo-controller-section">
+		<section id="flocks-demo-controller-section-color-scheme" class="flocks-demo-controller-section">
 			<h5>Color Scheme</h5>
 			<ul id="flocks-demo-controller-color-schemes">
 
@@ -169,7 +169,7 @@ function fdc_render_view() { ?>
 
 
 		<!-- Demos -->
-		<section id="" class="flocks-demo-controller-section">
+		<section id="flocks-demo-controller-section-layout" class="flocks-demo-controller-section">
 			<h5>Layout</h5>
 			<select id="flocks-demo-controller-layout">
 				<option value="wide">Wide</option>
@@ -178,7 +178,7 @@ function fdc_render_view() { ?>
 		</section>
 
 		<!-- Main Demo -->
-		<section id="" class="flocks-demo-controller-section">
+		<section id="flocks-demo-controller-section-main-demo" class="flocks-demo-controller-section">
 			<h5>Main Demo</h5>
 			<a class='button' id="main-demo-button" href="#">
 				Go Back to Main Demo
